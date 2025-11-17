@@ -1,0 +1,42 @@
+/* main.css */
+:root {
+  --page-padding: 20px;
+  --card-bg: #ffffff;
+  --font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  --muted: #666;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #f4f7fb;
+  margin: 0;
+  padding: var(--page-padding);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+h1 { font-size: 1.8rem; margin-top: 0; }
+h2 { font-size: 1.1rem; margin-bottom: 8px; }
+
+.author, .date { color: var(--muted); margin: 0 0 10px 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+table thead { background: #eef2f7; }
+table th, table td { padding: 8px 10px; border: 1px solid #e3e8ef; text-align: left; }
+
+.insert-form label { display: block; margin-bottom: 6px; }
+.insert-form input { padding: 6px 8px; margin-top: 4px; width: 100%; max-width: 320px; }
+button { padding: 8px 12px; cursor: pointer; border-radius: 4px; border: none; }
+
+.notice { background: #e8f9e8; border: 1px solid #c9eac9; padding: 8px; margin-bottom: 12px; }
